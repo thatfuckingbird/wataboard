@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>sounds.json</file>
+        <file>sounds/watame_freedom.wav</file>
+        <file>assets/LinBiolinum_R.ttf</file>
+        <file>assets/logo.png</file>
+        <file>assets/watabee.png</file>
+        <file>assets/watame1.png</file>
+        <file>assets/watame2.png</file>
+        <file>assets/watame3.png</file>
+        <file>assets/LinBiolinum_RB.ttf</file>
+        <file>assets/watasmall.png</file>
+        <file>assets/watasmall2.png</file>
+        <file>assets/watamate1.png</file>
+        <file>assets/watamate2.png</file>
+    </qresource>
+</RCC>
