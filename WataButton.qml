@@ -65,7 +65,7 @@ Rectangle {
         id: mediaPlayerComponent
         MediaPlayer {
             id: player
-            source: "qrc:/sounds/"+soundData["src"]
+            source: "qrc:/sounds/"+soundData["file"]
             audioOutput: AudioOutput {}
             onPlaybackStateChanged: {
                 if(player.playbackState === MediaPlayer.StoppedState) {
@@ -91,7 +91,7 @@ Rectangle {
                 player.finished.connect(function() {
                     button.activePlayerCount--
                 })
-                player.playThenDestroySelf(":/sounds/"+soundData["src"])
+                player.playThenDestroySelf(":/sounds/"+soundData["file"])
             } else {
                 mediaPlayerComponent.createObject(button)
             }

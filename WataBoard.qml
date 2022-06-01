@@ -8,7 +8,7 @@ Rectangle {
     id: wataboard
     width: parent.width
 
-    property string language: langSwitch.checked ? "ja" : "en"
+    property string language: langSwitch.checked ? "jp" : "en"
     required property var soundData
 
     FontLoader {
@@ -218,7 +218,7 @@ Rectangle {
     }
 
     Component.onCompleted: {
-        if(Qt.locale().name.startsWith("ja")) {
+        if(Qt.locale().name.startsWith("jp")) {
             langSwitch.toggle()
         }
     }
