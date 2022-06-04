@@ -6,7 +6,7 @@ import csv
 import subprocess
 import json
 
-if len(sys.argv) != 4:
+if len(sys.argv) < 4:
     print("Args: <csv path> <audio dir> <output dir> (--wav)")
     sys.exit(0)
 
@@ -30,6 +30,13 @@ with open(sys.argv[1], newline='') as csvfile:
     next(reader)
     for row in reader:
         if not row[5].strip(): continue
+        if not row[1].strip(): continue
+        if not row[2].strip(): continue
+        
+        # TODO: temporary until we have proper categories
+        row[3] = "Voices (work in progress)"
+        row[4] = "音声（仮）"
+        
         if not row[3] in categories:
             categories[row[3]] = dict()
         if not "sounds" in categories[row[3]]: categories[row[3]]["sounds"] = []
@@ -45,11 +52,11 @@ with open(sys.argv[1], newline='') as csvfile:
             print(f"Missing file: {fpath}")
             sys.exit(0)
         print("Encoding file:"+fpath)
-        subprocess.run(["ffmpeg", "-f", "s16le", "-ar", "44100", "-ac", "2", "-i", fpath, "-metadata", "artist=\"角巻わため\"", sys.argv[3]+"/"+fname_without_ext+".wav"])
+        subprocess.run(["ffmpeg", "-y", "-f", "s16le", "-ar", "44100", "-ac", "2", "-i", fpath, "-metadata", "artist=\"角巻わため\"", sys.argv[3]+"/"+fname_without_ext+".wav"])
         if not os.path.isfile(sys.argv[3]+"/"+fname_without_ext+".wav"):
             print("Something went wrong during wav encoding")
             sys.exit(0)
-        subprocess.run(["ffmpeg", "-i", fpath, "-codec:a", "libmp3lame", "-qscale:a", "1", "-metadata", "artist=\"角巻わため\"", sys.argv[3]+"/"+fname_without_ext+".mp3"])
+        subprocess.run(["ffmpeg", "-y", "-i", fpath, "-codec:a", "libmp3lame", "-qscale:a", "1", "-metadata", "artist=\"角巻わため\"", sys.argv[3]+"/"+fname_without_ext+".mp3"])
         if not os.path.isfile(sys.argv[3]+"/"+fname_without_ext+".mp3"):
             print("Something went wrong during mp3 encoding")
             sys.exit(0)
@@ -57,6 +64,6 @@ with open(sys.argv[1], newline='') as csvfile:
 results = []
 for cat in categories:
     results.append(categories[cat])
-with open(sys.argv[3]+'/sounds.json', 'w') as sounds:
+with open(sys.argv[3]+('/sounds_wav.json' if wav_output else '/sounds.json'), 'w') as sounds:
     json.dump(results, sounds, indent=4, ensure_ascii=False)
 print("Done!")

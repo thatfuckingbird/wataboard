@@ -1,0 +1,420 @@
+[
+    {
+        "sounds": [
+            {
+                "file": "aaaagh.wav",
+                "en": "Aaaagh",
+                "jp": "あ゙あ゙あ゙あ゙あ゙あ゙"
+            },
+            {
+                "file": "Abayo.wav",
+                "en": "Farewell",
+                "jp": "ｱﾊﾞﾖ"
+            },
+            {
+                "file": "araara.wav",
+                "en": "Ara ara",
+                "jp": "あらあら～"
+            },
+            {
+                "file": "BaingBaing.wav",
+                "en": "Baing Baing",
+                "jp": "バーインバーイン"
+            },
+            {
+                "file": "Beautiful.wav",
+                "en": "Beautiful",
+                "jp": "ビューティフル"
+            },
+            {
+                "file": "Check_it_out.wav",
+                "en": "Check it out!",
+                "jp": "チェケラ！"
+            },
+            {
+                "file": "Cut.wav",
+                "en": "Cut",
+                "jp": "カット！"
+            },
+            {
+                "file": "cute_sound.wav",
+                "en": "Yochi yochi",
+                "jp": "よちよち"
+            },
+            {
+                "file": "DontAbandonMe.wav",
+                "en": "Don't abandon me...！",
+                "jp": "捨てないでおねがい！"
+            },
+            {
+                "file": "g_g_e_z.wav",
+                "en": "GG EZ(ed)",
+                "jp": "ジージー　イーゼッド"
+            },
+            {
+                "file": "GaHaHa.wav",
+                "en": "GaHaHa！",
+                "jp": "ガハハハッ"
+            },
+            {
+                "file": "gesundheit.wav",
+                "en": "Gesundheit",
+                "jp": "（？）"
+            },
+            {
+                "file": "gg_ez.wav",
+                "en": "GGEZ",
+                "jp": "グッドゲーム　イージー"
+            },
+            {
+                "file": "headpat.wav",
+                "en": "Headpaaat",
+                "jp": "ヘッドパーット"
+            },
+            {
+                "file": "HelpmeHelpme.wav",
+                "en": "Help meee",
+                "jp": "ヘルプミー"
+            },
+            {
+                "file": "Hey_guys.wav",
+                "en": "Hey guys",
+                "jp": "ヘイガーイズ"
+            },
+            {
+                "file": "hi_honey.wav",
+                "en": "Hi honey",
+                "jp": "ハイハニー～"
+            },
+            {
+                "file": "I_like_sand.wav",
+                "en": "I like sand",
+                "jp": "砂が好き（英語）"
+            },
+            {
+                "file": "iamsheep.wav",
+                "en": "I am sheep!",
+                "jp": "アイアムシープ！"
+            },
+            {
+                "file": "IDontWannaBeJingiskanAnymore.wav",
+                "en": "Don't want to be jingisukan",
+                "jp": "ジンギスカンになりたくない"
+            },
+            {
+                "file": "Imhungry.wav",
+                "en": "I'm hungry",
+                "jp": "アイムハングリー"
+            },
+            {
+                "file": "kachi.wav",
+                "en": "kachi",
+                "jp": "ｶﾁｯ"
+            },
+            {
+                "file": "kao.wav",
+                "en": "Angry about big face jokes",
+                "jp": "顔デカくねって（激おこ）"
+            },
+            {
+                "file": "lets_go.wav",
+                "en": "Let's goo",
+                "jp": "レッツゴー"
+            },
+            {
+                "file": "longtone.wav",
+                "en": "eeeee??? (long)",
+                "jp": "ええええ？？（長い）"
+            },
+            {
+                "file": "Mario.wav",
+                "en": "Mario",
+                "jp": "マリオ"
+            },
+            {
+                "file": "meeeeh.wav",
+                "en": "Meeeehhhh",
+                "jp": "メﾞｴﾞｴﾞｴﾞｴﾞ"
+            },
+            {
+                "file": "meshiequalfood.wav",
+                "en": "Meshi = Food",
+                "jp": "飯＝フード"
+            },
+            {
+                "file": "milk_for_you_bebi.wav",
+                "en": "Milk for you baby",
+                "jp": "ミルクフォーユーベビー"
+            },
+            {
+                "file": "MyNameIsWatameTsunomaki.wav",
+                "en": "My name is Watame Tsunomaki",
+                "jp": "マイネームイズわため角巻"
+            },
+            {
+                "file": "nadenade.wav",
+                "en": "nade nade",
+                "jp": "なでなで"
+            },
+            {
+                "file": "Ohmygosh.wav",
+                "en": "Oh my gosh!",
+                "jp": "オーマイガッシュ！"
+            },
+            {
+                "file": "oiiii.wav",
+                "en": "Oii!",
+                "jp": "おおぃ！"
+            },
+            {
+                "file": "omaewa.wav",
+                "en": "You are already dead",
+                "jp": "お前はもう死んでいる"
+            },
+            {
+                "file": "PekoLaugh.wav",
+                "en": "Peko laugh",
+                "jp": "ぺこ笑い"
+            },
+            {
+                "file": "Pikachu.wav",
+                "en": "Pikachu impression",
+                "jp": "ピカチュウ真似"
+            },
+            {
+                "file": "PrettyKetsu.wav",
+                "en": "WOW Pretty Butt",
+                "jp": "わお！プリティーケツ"
+            },
+            {
+                "file": "RepeatAfterMeTasukete.wav",
+                "en": "Repeat after me: Help me",
+                "jp": "リピートアフターミー「助けて」"
+            },
+            {
+                "file": "ShigureUii.wav",
+                "en": "I'm Shigure Ui",
+                "jp": "しぐれういでーす"
+            },
+            {
+                "file": "TowasamaIsDevil.wav",
+                "en": "”Towasama is devil”",
+                "jp": "トワ様イズデヴィル"
+            },
+            {
+                "file": "Tsundere_Watame_Calls_You_Baka.wav",
+                "en": "Tsundere(?) Watame insults you",
+                "jp": "ツンデレ(？)わための罵倒"
+            },
+            {
+                "file": "uwaaaaaa.wav",
+                "en": "Uwaaaaaa",
+                "jp": "うわああぁ"
+            },
+            {
+                "file": "wao.wav",
+                "en": "Wao",
+                "jp": "わお。"
+            },
+            {
+                "file": "WataBeam.wav",
+                "en": "Wata Beam",
+                "jp": "わたビーム"
+            },
+            {
+                "file": "watame_assures_that_she_is_safe_for_children_to_watch.wav",
+                "en": "Watame is safe for children",
+                "jp": "子供が見ても大丈夫です"
+            },
+            {
+                "file": "watame_brainwash.wav",
+                "en": "Watame Brainwashing",
+                "jp": "わため洗脳"
+            },
+            {
+                "file": "watame_chu_kachi.wav",
+                "en": "Thank you kiss",
+                "jp": "感謝のチュ"
+            },
+            {
+                "file": "watame_favourite_word.wav",
+                "en": "Watame's Favorite Word",
+                "jp": "わためぇの好きな言葉"
+            },
+            {
+                "file": "watame_good_night_good_boy_bye_v2.wav",
+                "en": "Good night good boy",
+                "jp": "グナイ～グッボイ～"
+            },
+            {
+                "file": "watame_happy_sheep_v2.wav",
+                "en": "Happy sheep",
+                "jp": "ハッピーシープ"
+            },
+            {
+                "file": "watame_im_back.wav",
+                "en": "I'm back",
+                "jp": "ただいまー"
+            },
+            {
+                "file": "watame_kick.wav",
+                "en": "Watame kick!",
+                "jp": "わためキーック"
+            },
+            {
+                "file": "watame_koko_is_doko.wav",
+                "en": "Where's this? Koko is doko?",
+                "jp": "ここイズどこ？"
+            },
+            {
+                "file": "watame_kora.wav",
+                "en": "Kora!",
+                "jp": "コラ！コラ！"
+            },
+            {
+                "file": "watame_lava_scream.wav",
+                "en": "Shriek (Lava)",
+                "jp": "悲鳴（マグマ）"
+            },
+            {
+                "file": "Watame_love_you_all_kachi.wav",
+                "en": "Love you all! Mwa!",
+                "jp": "愛してんでぇ！んま！"
+            },
+            {
+                "file": "watame_mental_physical_vital_oriental.wav",
+                "en": "Mental, Physical, Vital, Oriental",
+                "jp": "メンタル、フィジカル、バイタル、オリエンタル"
+            },
+            {
+                "file": "watame_nande.wav",
+                "en": "Ahhh, why!?",
+                "jp": "あああ、なんで！？"
+            },
+            {
+                "file": "watame_nom_2.wav",
+                "en": "mogu mogu",
+                "jp": "モグモグ"
+            },
+            {
+                "file": "watame_screams_from_failure.wav",
+                "en": "Aaaagggh, kuso!",
+                "jp": "あああああ、クソー！"
+            },
+            {
+                "file": "watame_thinks_she_did_it_but_then_realizes.wav",
+                "en": "I did it! ...no I didn't",
+                "jp": "やったー！...やってない"
+            },
+            {
+                "file": "watame_very_very_hungry.wav",
+                "en": "Very very hungry",
+                "jp": "ベリーベリーハングリー"
+            },
+            {
+                "file": "watame_voice_1_warukunai.wav",
+                "en": "Watame did nothing wrong",
+                "jp": "わためは悪くないよねぇ？"
+            },
+            {
+                "file": "watame_wow.wav",
+                "en": "Wow",
+                "jp": "わーお"
+            },
+            {
+                "file": "WatameFailure.wav",
+                "en": "Failure teaches success.",
+                "jp": "失敗は成功のもと（英語）"
+            },
+            {
+                "file": "WatameNumber1.wav",
+                "en": "Watame No.1",
+                "jp": "わためNo.1"
+            },
+            {
+                "file": "WhosAGoat.wav",
+                "en": "Who's a goat!?",
+                "jp": "誰がヤギや"
+            },
+            {
+                "file": "WhosAnOjisan.wav",
+                "en": "Who's an ojisan!?",
+                "jp": "クソー！誰がおじさんやー"
+            },
+            {
+                "file": "WTM_everyone_is_my_important_family_kachi.wav",
+                "en": "Everyone is my important family",
+                "jp": "皆が私の大切な家族だ（英語）"
+            },
+            {
+                "file": "YouDidNotSeeAnything.wav",
+                "en": "Everyone, you saw nothing",
+                "jp": "皆、何も見てない"
+            },
+            {
+                "file": "Hola Watamigo.wav",
+                "en": "¡Hola, Watamigo!",
+                "jp": "オラ！わたミーゴ！"
+            },
+            {
+                "file": "It_s me Watame.wav",
+                "en": "It's me, Watame (Mario style)",
+                "jp": "イツミー、わーため（マリオ風）"
+            },
+            {
+                "file": "Daijoubu dayo.wav",
+                "en": "daijoubu dayo",
+                "jp": "大丈夫だよ！"
+            },
+            {
+                "file": "Itterasshai.wav",
+                "en": "itterasshai",
+                "jp": "いってらっしゃ～い"
+            },
+            {
+                "file": "Tsunomaki Janken Start.wav",
+                "en": "Tsunomaki Janken, Start!",
+                "jp": "つのまきじゃんけん、スタート！"
+            },
+            {
+                "file": "Sheep noises.wav",
+                "en": "Baa Baa",
+                "jp": "ばああ　ばああ"
+            },
+            {
+                "file": "Thigh drum.wav",
+                "en": "Thigh drum",
+                "jp": "もも太鼓"
+            },
+            {
+                "file": "Warukunai.wav",
+                "en": "Watame, did nothing wrong, riiight?",
+                "jp": "わため、悪くないよねぇ～？"
+            },
+            {
+                "file": "Watabeam.wav",
+                "en": "Watabeeeam",
+                "jp": "わたビーーーム"
+            },
+            {
+                "file": "Watalaser.wav",
+                "en": "Watalaser",
+                "jp": "わたレーザー"
+            },
+            {
+                "file": "Watame Factory (Acapella).wav",
+                "en": "Watame Factory (Acapella)",
+                "jp": "わため工場（アカペラ）"
+            },
+            {
+                "file": "Watame laugh.wav",
+                "en": "Laugh 1",
+                "jp": "笑い声 1"
+            }
+        ],
+        "title": {
+            "en": "Voices (work in progress)",
+            "jp": "音声（仮）"
+        }
+    }
+]
