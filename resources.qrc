@@ -1,7 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>sounds.json</file>
-        <file>sounds/watame_freedom.wav</file>
         <file>assets/LinBiolinum_R.ttf</file>
         <file>assets/logo.png</file>
         <file>assets/watabee.png</file>
@@ -13,5 +11,111 @@
         <file>assets/watasmall2.png</file>
         <file>assets/watamate1.png</file>
         <file>assets/watamate2.png</file>
+        <file>data/generated/sounds.json</file>
+        <file>data/generated/youwanttsunodrill.mp3</file>
+        <file>data/generated/YouDidNotSeeAnything.mp3</file>
+        <file>data/generated/WTM_everyone_is_my_important_family_kachi.mp3</file>
+        <file>data/generated/Wow.mp3</file>
+        <file>data/generated/WhosAnOjisan.mp3</file>
+        <file>data/generated/WhosAGoat.mp3</file>
+        <file>data/generated/WhatAmITalkingAbout.mp3</file>
+        <file>data/generated/What did you eat today.mp3</file>
+        <file>data/generated/Wataroth.mp3</file>
+        <file>data/generated/WatameNumber1.mp3</file>
+        <file>data/generated/Watamegobrrrrrrrrrrrrrr.mp3</file>
+        <file>data/generated/WatameFailure.mp3</file>
+        <file>data/generated/watame_yomawari_scream_1.mp3</file>
+        <file>data/generated/watame_wow.mp3</file>
+        <file>data/generated/watame_voice_1_warukunai.mp3</file>
+        <file>data/generated/watame_voice_1_tsunodrill.mp3</file>
+        <file>data/generated/watame_very_very_hungry.mp3</file>
+        <file>data/generated/watame_trying_to_left_but_oof.mp3</file>
+        <file>data/generated/watame_thinks_she_did_it_but_then_realizes.mp3</file>
+        <file>data/generated/watame_teaches_wakipai.mp3</file>
+        <file>data/generated/watame_screams_from_failure.mp3</file>
+        <file>data/generated/watame_says_you_are_also_hers.mp3</file>
+        <file>data/generated/watame_puking_noises.mp3</file>
+        <file>data/generated/watame_potato_chip_zenloss.mp3</file>
+        <file>data/generated/watame_porno_festival.mp3</file>
+        <file>data/generated/watame_nom_2.mp3</file>
+        <file>data/generated/watame_noises.mp3</file>
+        <file>data/generated/watame_nande.mp3</file>
+        <file>data/generated/watame_mental_physical_vital_oriental.mp3</file>
+        <file>data/generated/Watame_love_you_all_kachi.mp3</file>
+        <file>data/generated/watame_lava_scream.mp3</file>
+        <file>data/generated/watame_kora.mp3</file>
+        <file>data/generated/watame_koko_is_doko.mp3</file>
+        <file>data/generated/watame_kick.mp3</file>
+        <file>data/generated/watame_im_back.mp3</file>
+        <file>data/generated/watame_happy_sheep_v2.mp3</file>
+        <file>data/generated/watame_good_night_good_boy_bye_v2.mp3</file>
+        <file>data/generated/Watame_gobrrrrrrrrrrrrrr.mp3</file>
+        <file>data/generated/watame_favourite_word.mp3</file>
+        <file>data/generated/watame_chu_kachi.mp3</file>
+        <file>data/generated/watame_brainwash.mp3</file>
+        <file>data/generated/watame_barely_survived_watame.mp3</file>
+        <file>data/generated/watame_assures_that_she_is_safe_for_children_to_watch.mp3</file>
+        <file>data/generated/Watame laugh.mp3</file>
+        <file>data/generated/Watame Factory (Acapella).mp3</file>
+        <file>data/generated/Watalaser.mp3</file>
+        <file>data/generated/WataBeam.mp3</file>
+        <file>data/generated/Watabeam.mp3</file>
+        <file>data/generated/WATA.mp3</file>
+        <file>data/generated/Warukunai.mp3</file>
+        <file>data/generated/wao.mp3</file>
+        <file>data/generated/uwaaaaaa.mp3</file>
+        <file>data/generated/Tsunomaki Janken Start.mp3</file>
+        <file>data/generated/Tsundere_Watame_Calls_You_Baka.mp3</file>
+        <file>data/generated/TowasamaIsDevil.mp3</file>
+        <file>data/generated/Thigh drum.mp3</file>
+        <file>data/generated/suprise creeper(Warning LOUD).mp3</file>
+        <file>data/generated/ShigureUii.mp3</file>
+        <file>data/generated/Sheep noises.mp3</file>
+        <file>data/generated/RepeatAfterMeTasukete.mp3</file>
+        <file>data/generated/PrettyKetsu.mp3</file>
+        <file>data/generated/Pikachu.mp3</file>
+        <file>data/generated/PekoLaugh.mp3</file>
+        <file>data/generated/omaewa.mp3</file>
+        <file>data/generated/OkayUnderstand.mp3</file>
+        <file>data/generated/oiiii.mp3</file>
+        <file>data/generated/Ohmygosh.mp3</file>
+        <file>data/generated/nadenade.mp3</file>
+        <file>data/generated/MyNameIsWatameTsunomaki.mp3</file>
+        <file>data/generated/mini_argh.mp3</file>
+        <file>data/generated/milk_for_you_bebi.mp3</file>
+        <file>data/generated/meshiequalfood.mp3</file>
+        <file>data/generated/meeeeh.mp3</file>
+        <file>data/generated/Mario.mp3</file>
+        <file>data/generated/longtone.mp3</file>
+        <file>data/generated/lets_go.mp3</file>
+        <file>data/generated/kao.mp3</file>
+        <file>data/generated/kachi.mp3</file>
+        <file>data/generated/Itterasshai.mp3</file>
+        <file>data/generated/It_s me Watame.mp3</file>
+        <file>data/generated/Imhungry.mp3</file>
+        <file>data/generated/IDontWannaBeJingiskanAnymore.mp3</file>
+        <file>data/generated/iamsheep.mp3</file>
+        <file>data/generated/I_like_sand.mp3</file>
+        <file>data/generated/Hola Watamigo.mp3</file>
+        <file>data/generated/hi_honey.mp3</file>
+        <file>data/generated/Hey_guys.mp3</file>
+        <file>data/generated/HelpmeHelpme.mp3</file>
+        <file>data/generated/headpat.mp3</file>
+        <file>data/generated/gg_ez.mp3</file>
+        <file>data/generated/gesundheit.mp3</file>
+        <file>data/generated/GaHaHa.mp3</file>
+        <file>data/generated/g_g_e_z.mp3</file>
+        <file>data/generated/everyonewakeup.mp3</file>
+        <file>data/generated/DontAbandonMe.mp3</file>
+        <file>data/generated/Daijoubu dayo.mp3</file>
+        <file>data/generated/cute_sound.mp3</file>
+        <file>data/generated/Cut.mp3</file>
+        <file>data/generated/chu.mp3</file>
+        <file>data/generated/Check_it_out.mp3</file>
+        <file>data/generated/Beautiful.mp3</file>
+        <file>data/generated/BaingBaing.mp3</file>
+        <file>data/generated/araara.mp3</file>
+        <file>data/generated/Abayo.mp3</file>
+        <file>data/generated/aaaagh.mp3</file>
     </qresource>
 </RCC>

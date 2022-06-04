@@ -49,7 +49,7 @@ Rectangle {
         }
 
         Component.onCompleted: randomizeWatame()
-        visible: wataboard.width > wataboard.height
+        visible: false //wataboard.width > wataboard.height
     }
 
     Row {
@@ -133,7 +133,7 @@ Rectangle {
 
         Column {
             id: mainArea
-            width: wataboard.width < wataboard.height ? wataboard.width :  2 * wataboard.width / 3
+            width: wataboard.width //wataboard.width < wataboard.height ? wataboard.width :  2 * wataboard.width / 3
             Repeater {
                 model: wataboard.soundData.length
                 Column {
@@ -156,20 +156,11 @@ Rectangle {
                             antialiasing: true
                             color: "#886e5e"//"#251212"
                         }
+                        visible: false
                     }
-                    Flow {
-                        id: flow
+                    WataButtonGroup {
+                        buttonSoundData: wataboard.soundData[index]["sounds"]
                         width: mainArea.width
-                        spacing: 16
-                        padding: 16
-                        property int outerIndex: index
-                        Repeater {
-                            model: wataboard.soundData[index]["sounds"].length
-                            WataButton {
-                                soundData: wataboard.soundData[flow.outerIndex]["sounds"][index]
-                                language: wataboard.language
-                            }
-                        }
                     }
                 }
             }
@@ -178,7 +169,8 @@ Rectangle {
 
     Text {
         id: bottomText
-        text: "❤️ Dedicated to <a href=\"https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA\">Tsunomaki Watame</a>. Source code <a href=\"#\">here</a>."
+        text: langSwitch.checked ? "❤️ <a href=\"https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA\">角巻わため</a>. <a href=\"https://github.com/thatfuckingbird/wataboard\">ソースコード
+</a>." : "❤️ <a href=\"https://www.youtube.com/channel/UCqm3BQLlJfvkTsX_hvm0UmA\">Tsunomaki Watame</a>. <a href=\"https://github.com/thatfuckingbird/wataboard\">Source code</a>."
         onLinkActivated: Qt.openUrlExternally(link)
         anchors.left: wataboard.left
         anchors.bottom: wataboard.bottom

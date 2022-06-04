@@ -56,9 +56,11 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
 
-    QFile soundData{":/sounds.json"};
+    QFile soundData{":/data/generated/sounds.json"};
+    QJsonArray soundDataArray;
     if(soundData.open(QFile::ReadOnly)) {
-        engine.globalObject().setProperty("loadedSounds", engine.toScriptValue(QJsonDocument::fromJson(soundData.readAll()).array()));
+        soundDataArray = QJsonDocument::fromJson(soundData.readAll()).array();
+        engine.globalObject().setProperty("loadedSounds", engine.toScriptValue(soundDataArray));
         engine.globalObject().setProperty("cppPlayer", engine.newQObject(new CppAudioPlayer{}));
 #ifdef Q_OS_WASM
         engine.globalObject().setProperty("useCppPlayer", true);

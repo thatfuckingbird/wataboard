@@ -4,7 +4,7 @@ import QtMultimedia
 Rectangle {
     id: button
 
-    required property var soundData
+    property var soundData
     property string language: "en"
     property int activePlayerCount: 0
 
@@ -65,7 +65,7 @@ Rectangle {
         id: mediaPlayerComponent
         MediaPlayer {
             id: player
-            source: "qrc:/sounds/"+soundData["file"]
+            source: "qrc:/data/generated/"+soundData["file"]
             audioOutput: AudioOutput {}
             onPlaybackStateChanged: {
                 if(player.playbackState === MediaPlayer.StoppedState) {
@@ -91,7 +91,7 @@ Rectangle {
                 player.finished.connect(function() {
                     button.activePlayerCount--
                 })
-                player.playThenDestroySelf(":/sounds/"+soundData["file"])
+                player.playThenDestroySelf(":/data/generated/"+soundData["file"])
             } else {
                 mediaPlayerComponent.createObject(button)
             }
