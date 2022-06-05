@@ -35,7 +35,7 @@ with open(sys.argv[1], newline='') as csvfile:
         
         # TODO: temporary until we have proper categories
         row[3] = "Voices (work in progress)"
-        row[4] = "音声（仮）"
+        row[4] = "音声（開発中）"
         
         if not row[3] in categories:
             categories[row[3]] = dict()
